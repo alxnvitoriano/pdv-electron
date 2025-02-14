@@ -21,6 +21,10 @@ nav.sideBar {
   box-shadow: 4px 0 15px rgba(0, 0, 0, 0.5);
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
 }
 
 nav.sideBar.expandir {
@@ -80,4 +84,275 @@ nav.sideBar.expandir .menuName {
 ul li.menuItems a .icons > i {
   font-size: 30px;
   margin-left: 10px;
+}
+
+.logo-img {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 100vh; /* Faz a tela ocupar toda a altura da tela */
+  margin: 0; /* Remove margens padrão */
+}
+
+.dash-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #160e3c;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  position: absolute;
+  top: 20px;
+  left: 90px;
+}
+
+.card {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: -5px 0 2px rgb(196, 4, 4);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h2 {
+  flex-grow: 1;
+  text-align: center;
+  margin: 0;
+  color: red;
+}
+
+.header .icon {
+  font-size: 24px;
+  color: #333;
+}
+
+.content {
+  text-align: center;
+}
+
+.content h3 {
+  margin: 0;
+  color: red;
+}
+
+.content .value {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.chart-container {
+  width: 100%;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.chart {
+  width: 100%;
+  height: 100%;
+}
+
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  position: absolute;
+  top: 20px;
+  left: 400px;
+}
+
+.card2 {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: -5px 0 2px green;
+}
+
+.header2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header2 h2 {
+  flex-grow: 1;
+  text-align: center;
+  margin: 0;
+  color: green;
+}
+
+.header2 .icon {
+  font-size: 24px;
+  color: #333;
+}
+
+.content2 {
+  text-align: center;
+}
+
+.content2 h3 {
+  margin: 0;
+  color: green;
+}
+
+.content2 .value {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.chart-container2 {
+  width: 100%;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.chart2 {
+  width: 100%;
+  height: 100%;
+}
+.container3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  position: absolute;
+  top: 20px;
+  left: 710px;
+}
+
+.card3 {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: -5px 0 2px #d6da05;
+}
+
+.header3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header3 h2 {
+  flex-grow: 1;
+  text-align: center;
+  margin: 0;
+  color: #d6da05;
+}
+
+.header3 .icon {
+  font-size: 24px;
+  color: #333;
+}
+
+.content3 {
+  text-align: center;
+}
+
+.content3 h3 {
+  margin: 0;
+  color: #d6da05;
+}
+
+.content3 .value {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.chart-container3 {
+  width: 100%;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.chart3 {
+  width: 100%;
+  height: 100%;
+}
+
+.img-lat {
+  display: flex;
+  justify-content: flex-start; /* Center horizontally */
+  align-items: flex-start; /* Center vertically */
+  margin: 20px; /* Adjust margin as needed */
+  margin-top: 100px;
+  margin-left: 112px;
+  padding: 20px; /* Adjust padding as needed */
+  position: fixed;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.img-lat img {
+  width: 350px;
+}
+
+.sup-txt {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: black;
+}
+
+.box {
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-left: 70px;
+  padding: 20px;
+  width: 90%;
+  box-shadow: 10px 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.cod-brr {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 510px;
+  margin-top: 8px;
+  text-align: center;
+  color: black;
+}
+
+.box-w {
+  background-color: white;
+  border-radius: 8px;
+  width: 400px;
+  height: 150px;
+}
+
+.box-w h1 {
+  font-size: 20px;
 }
